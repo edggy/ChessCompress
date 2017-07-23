@@ -15,7 +15,7 @@ Takes an extracted database file and compresses it or takes a compressed file an
 
 Usage:
 
-chessCompress.py -df <decompressed> -cf <compressed> -c [[v] [-mt [(threads)]]
+chessCompress.py -df <decompressed> -cf <compressed> -c [v] [-mt [(threads)]]
 
 chessCompress.py -cf <compressed> -df <decompressed> -d [-v] [-mt [(threads)]]
 
