@@ -8,16 +8,16 @@ Takes a file from https://database.lichess.org/ and removes headers and move num
 
 Usage:
 
-extract.py (input) (output) [[<log>]]
+extract.py (input) (output) [(log)]
 
 # chessCompress.py
 Takes an extracted database file and compresses it or takes a compressed file and decompresses it 
 
 Usage:
 
-chessCompress.py -df <decompressed> -cf <compressed> -c [[-v]] [-mt [(threads)]]
+chessCompress.py -df <decompressed> -cf <compressed> -c [[v] [-mt [(threads)]]
 
-chessCompress.py -cf <compressed> -df <decompressed> -d [[-v]] [-mt [(threads)]]
+chessCompress.py -cf <compressed> -df <decompressed> -d [-v] [-mt [(threads)]]
 
 chessCompress.py [-t (game ID) | -tt (numGames) | -ttt (numGames)]
 
